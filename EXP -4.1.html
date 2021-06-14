@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form validation</title>
+	<script language="javascript">
+		function validation()
+		{
+			var x=f.un.value;var len=x.length;
+			var val=x.charCodeAt(0); var p=f.pw.value;
+			var c=f.cpw.value;var a=f.email.value;
+			var atpos=a.indexOf("@");var dotpos=a.lastIndexOf(".");
+			if(len<6||x==""||x==null)
+			{
+				alert("check your username! must be minimum 6 characters");
+			}
+			else if(val<65 || val>90&&val<97 || val>122)
+			{
+				alert("username must be begin with an alphabet");
+				return fasle;
+			}
+			else if(p==" || c==" || p.length<6 || c.length<6 || p!=c)
+			{
+				alert("password and confirm password should be same and greater than 6 characters!");
+				return false;
+			}
+			else if(atpos<6 || dotpos<atpos+6 || dotpos+2>=a.length)
+			{
+				alert("Not a Valid email id");
+				return false;
+			}
+			else
+			alert("Congratulations!you have submitted successfully");
+			}
+	</script>
+</head>
+<body bgcolor="lemonchiffon">
+	<h1 align="center" style="">Registration Form</h1>
+	<table align="center" style="border: 1px solid;height: 600px;width: 400px; background-color:mediumvioletred;" >
+		<form name="f" action="wtweek4.html" onsubmit="return validation();" method="post">
+			<tr>
+				<td><b>USERNAME</b></td>
+				<td><input type="text" name="un" placeholder="Please Enter Name"></td>
+			</tr>
+			<tr>
+				<td><b>PASSWORD</b></td>
+				<td><input type="password" name="pw" placeholder="Please Enter password"></td>
+			</tr>
+			<tr>
+				<td><b>CONFIRM PASSWORD</b></td>
+				<td><input type="password" name="cpw" placeholder="Please Enter Again Password "></td>
+			</tr>
+			<tr>
+				<td><b>E-mail ID:</b></td>
+				<td><input type="text" name="email" placeholder="Please Enter E-Mail"></td>
+			</tr>
+			<tr>
+					<td><label for="tel"><b>PHONE NUMBER</b></label></td>
+					<td><input type="tel" name="tel" id="tel" required="on" placeholder="Please Enter Phone Number"></td>
+				</tr>
+				<tr>
+					<td><label for="date"><b>DOB</b></label></td>
+					<td><input type="date" name="date" id="date" required="on" placeholder=" "></td>
+				</tr>
+				<tr>
+					<td><label for="gender"><b>GENDER</b></label></td>
+					<td>
+						<input type="radio" name="gender" id="male" value="male"><label>Male</label>
+			    		<input type="radio" name="gender" id="female" value="female"><label>Female</label>
+			    		<input type="radio" name="gender" id="other" value="other"><label>Other</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="lang"><b>LANGUAGES</b></label></td>
+					<td>
+						<input type="checkbox" name="te" id="te" value="Telugu"><label>Telugu</label>
+						<br>
+						<input type="checkbox" name="hi" id="hi" value="Hindi"><label>Hindi</label>
+						<br>
+						<input type="checkbox" name="en" id="en" value="English"><label>English</label>
+						<br>
+						<input type="checkbox" name="ta" id="ta" value="Tamil"><label>Tamil</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="Qual"><b>QUALIFICATION</b></label></td>
+					<td >
+						<select name="Qual">
+							<option value="">BTech</option>
+							<option value="">MTech</option>
+							<option value="">Phd</option>
+							<option value="">BSc</option>
+							<option value="">B.Pharm</option>
+							<option value="">M.pharm</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="address"><b>ADDRESS</b></label></td>
+					<td>
+						<textarea rows="5" cols="25" placeholder="Please Type Your Address" style="text-align: center;"></textarea>
+					</td>
+				</tr>
+			<tr>
+				<td></td>
+				<td><input type="Submit" name="Submit"/></td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
