@@ -1,0 +1,24 @@
+h1
+{
+ color:indigo;
+ font-family:caStellar;font-size:20pt;
+ text-decoration:underline;
+}
+h2
+{
+ color:coral;
+ font-family:Chiller;font-size:18pt;
+ text-decoration:overline;
+}
+h3
+{
+ color:greenyellow;
+ font-family:Trebuchet MS;font-size:18pt;
+ text-decoration:blink;
+}
+p
+{
+ color:magenta;
+ font-family:fantasy;font-size:16pt;
+ font-style:italic;
+}
