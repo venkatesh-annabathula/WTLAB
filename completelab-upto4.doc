@@ -1,0 +1,796 @@
+1) Create web pages using Basic HTML Tags, Table, List, Image, and Frame Tags.
+
+main.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EXP1</title>
+</head>
+<body style="background-color: lightgreen">
+	<center >
+		<a href="basic.html">BasicHTMl</a>
+		<br>
+		<br>
+		<a href="lists.html">Lists</a>
+		<br>
+		<br>
+		<a href="wttables.html">Tables</a>
+		<br>
+		<br>
+		<a href="images.html">Images</a>
+		<br>
+		<br>
+		<a href="wt3.1.html">Frames</a>
+		<br>
+		<br>
+	</center>
+
+</body>
+</html>
+Output:
+ 
+
+basic.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basic</title>
+</head>
+<body style="background-color:mediumseagreen">
+	<h3 align="center">HEADING TAGS</h3>
+	<pre>
+		<B>H1,H2,H3,H4,H5,H6</B>
+	</pre>
+	<h3 align="center">LIST TAGS</h3>
+	<b><pre>
+		TWO TYPES
+		----> LIST
+		----> UNORDERED LIST
+		----> ORDERED LIST
+	</pre></b>
+	<h3 align="center">EDITING TAGS</h3>
+	<pre>
+		<B>---> ITALIC </B>
+		<B>---> BOLD   </B>
+		<B>---> EM     </B>
+		<B>---> STRONG </B>
+		<B>---> SMALL  </B>
+		<B>---> BIG    </B>
+	</pre>
+	<button style="background-color: yellow;align-self: : center;" ><a href="main.html">return</a></button>
+</body>
+</html>
+Output:
+ 
+lists.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lists</title>
+</head>
+<body style="background-color:slateblue ">
+	<h1>Unordered list</h1>
+	<ul type="square"><h2>Tea</h2>
+		<b>
+			<li>WebTechnologies</li>
+			<li>ComputerNetwork</li>
+			<li>DMDW</li>
+		</b>
+	</ul>
+	<h1>Ordered list</h1>
+		<b>
+			<li>ArtificialIntelligence</li>
+			<li>RedHat</li>
+			<li>MEANSTACK</li>
+		</b>
+	</ol>
+	<h1>Definition list</h1>
+	<dl>
+		<dt>WT</dt>
+		<dd>Web Technologies</dd>
+		<dt>HTML</dt>
+		<dd>HyperTextMarkupLanguage</dd>
+	</dl>
+	<h1>Miscallenous list</h1>
+	<ul>
+		<li><h3>SUB</h3>
+			<ol>
+				<li>HCI</li>
+		        <li>ECom</li>
+		        <li>ComputerNetworks</li>
+			</ol>
+		</li>
+		<li><h3>LABS</h3>
+			<ol>
+				<li>C</li>
+		        <li>CPP</li>
+				<li>JAVA</li>
+			</ol>
+		</li>
+		<li><h3>LABS01</h3>
+			<ol>
+				<li>WT Lab</li>
+		        <li>CN Lab</li>
+				<li>DMDW Lab</li>
+			</ol>
+		</li>
+	</ul>
+	<button style="background-color: yellow"><a href="main.html">return</a></button>
+</body>
+</html>
+Output:
+
+ 
+tables.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tables</title>
+	<style type="text/css">
+		td{
+			border: 0px;
+			text-align: center;
+		}
+		tr{
+			text-align: center;
+		}
+	</style>
+</head>
+<body bgcolor="pink">
+	<center>
+		<h1>TIME TABLE</h1>
+	</center>
+	<table border="0 px" align="center">
+		<tr>
+			<th>Day</th>
+			<th>9:30 - 10:20</th>
+			<th>10:20 - 11:10</th>
+			<th>11:00 - 12:00</th>
+			<th>12:00 - 12:50</th>
+		</tr>
+		<tr>
+			<td>MONDAY</td>
+			<td>DMDW</td>
+			<td>WT</td>
+			<td>E.COM</td>
+			<td>HCI</td>
+		</tr>
+		<tr>
+			<td>TUESDAY</td>
+			<td>CN</td>
+			<td>WT</td>
+			<td>E.COM</td>
+			<td>HCI</td>
+		</tr>
+		<tr>
+			<td>WEDNESDAY</td>
+			<td>DMDW</td>
+			<td>WT</td>
+			<td>E.COM</td>
+			<td>CN</td>
+		</tr>
+		<tr>
+			<td>THURSDAY</td>
+			<td>DMDW</td>
+			<td>WT</td>
+			<td>E.COM</td>
+			<td>HCI</td>
+		</tr>
+		<tr>
+			<td>FRIDAY</td>
+			<td>DMDW</td>
+			<td>WT</td>
+			<td>E.COM</td>
+			<td>HCI</td>
+		</tr>
+		<tr>
+			<td>SATURDAY</td>
+			<td>DMDW</td>
+			<td>WT</td>
+			<td>E.COM</td>
+			<td>HCI</td>
+		</tr>
+	</table>
+	<button style="background-color: yellow;align-self: : center;"><a href="main.html">return</a></button>
+</body>
+</html>
+Output:
+ 
+images.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Images</title>
+</head>
+<body bgcolor="lightgreen">
+	<div style="height: 315px;width:100%">
+		<img src="nature.jpeg" height="300px" width="50%" align="center">
+	</div>
+	<div style="height: 315px;width:100%">
+		<img src="nature2.jpeg" height="300px" width="50%" align="center">
+	</div>
+	<button style="background-color: yellow;align-self: : center;"><a href="main.html">return</a></button>
+</body>
+</html>
+Output:
+ 
+
+frames.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Working with Tables</title>
+</head>
+<frameset rows="20%,70%,10%" noresize="noresize" >
+	<frame style="background-color: coral" src="top.html">
+	</frame>
+	<frameset cols="20%,*">
+		<frame style="background-color: coral" src="middle.html">
+		<frame style="background-color: coral" src="right.html" name="rf">
+	</frameset>
+	<frame style="background-color: lightgreen" src="bottom.html">
+	</frame>
+</frameset>
+</html>
+top.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 align="center">Aditya Engineering College</h1>
+</body>
+</html>
+middle.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3><a href="Mobileproject1.html" target="rf">projects</a></h3><br>
+	<h3><a href="planets.html" target="rf">planets</a></h3><br>
+	<h3><a href="login.html" target="rf">login</a></h3><br>
+	<h3><a href="table.html" target="rf">table</a></h3><br>
+</body>
+</html>
+right.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color: white">
+	<h1 align="center">WELCOME</h1>
+	<footer>
+		<div align="center">
+		<button style="background-color: yellow;align-self: : center;"><a href="main.html">return</a></button>
+	</div>
+	</footer>
+</body>
+</html>
+bottom.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h4 align="center">CopyRights@Venkatesh, allrightsreserved</h4>
+</body>
+</html>
+Output:
+ 
+
+2)Using Form Tags
+2.1) Create a Login Form
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>myproject/formpage</title>
+	<style>
+        body {
+        	background-color:lightcoral;
+        	margin: 0px;
+        	padding: 16px;
+        }
+		.social-icon {
+			width: 50px;
+			height: 50px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+		form {
+			background-color: mintcream;
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+
+		#form-heading {
+			font-size: 32px;
+			padding-top: 56px;
+			padding-bottom: 32px;
+		}
+
+		#social-wrapper {
+			background-color: #f2f6ff;
+			padding: 24px;
+		}
+
+		#input-wrapper {
+			padding-top: 80px;
+			padding-bottom: 40px;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+
+		.input-box {
+			font-size: 18px;
+			padding-bottom: 12px;
+			margin-bottom: 36px;
+			border: 0;
+			border-bottom: 1px solid #ccc;
+			width: 100%
+		}
+
+		#btn-submit {
+			background-color: #0056ff;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			padding-left: 24px;
+			padding-right: 24px;
+			font-size: 18px;
+			color: white;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<form autocomplete="on">
+		<h1 id="form-heading">LOGIN</h1>
+		<div id="social-wrapper">
+			<img class="social-icon" src="https://ubs.iilm.edu/wp-content/uploads/2016/03/Google-logo.png" alt="Google" >
+			<img class="social-icon" src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" alt="Facebook" >
+			<img class="social-icon" src="https://i.pinimg.com/600x315/2c/b6/70/2cb670b6ddd8922a1c1b2fee4f6f758c.jpg" alt="Github" >
+			<img class="social-icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="Linkedin" >
+		</div>
+
+		<div id="input-wrapper">
+			<div >
+				<input class="input-box" type="text" name="username" placeholder="Username">
+			</div>
+			<div>
+				<input class="input-box" type="email" name="email" placeholder="Email">
+			</div>
+			<div>
+				<input class="input-box" type="password" name="password" placeholder="Password">
+			</div>
+			<div>
+				<input id="btn-submit" type="submit" value="LOGIN">
+			</div>
+		</div>
+	</form>
+</body>
+</html>
+Output:
+
+ 
+
+
+
+
+2.2) Create a “Registration Form ”
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wtforms</title>
+</head>
+<body>
+	<h1 align="center" style="">Registration Form</h1>
+	<form autocomplete="on" action="#">
+		<fieldset style="border:0px;">
+			<table align="center" style="border: 1px solid;height: 600px;width: 400px; background-color:mediumseagreen;" >
+				<tr>
+					<td><label for="username"><b>USERNAME</b></label></td>
+		    		<td><input type="text" name="username" id="un" placeholder="Enter User Name"></td>
+				</tr>
+				<tr>
+					<td><label for="password"><b>PASSWORD</label></td>
+		    		<td><input type="Password" name="Password" id="pwd" placeholder="Enter Password" minlength="9"></td>
+				</tr>
+				<tr>
+					<td><label for="email"><b>EMAIL</b></label></td>
+		    		<td><input type="email" name="email" id="em" required="email"></td>
+				</tr>
+				<tr>
+					<td><label for="tel"><b>PHONE NUMBER</b></label></td>
+					<td><input type="tel" name="tel" id="tel" required="on"></td>
+				</tr>
+				<tr>
+					<td><label for="date"><b>DOB</b></label></td>
+					<td><input type="date" name="date" id="date" required="on" placeholder=" "></td>
+				</tr>
+				<tr>
+					<td><label for="gender"><b>GENDER</b></label></td>
+					<td>
+						<input type="radio" name="gender" id="male" value="male"><label>Male</label>
+			    		<input type="radio" name="gender" id="female" value="female"><label>Female</label>
+			    		<input type="radio" name="gender" id="other" value="other"><label>Other</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="lang"><b>LANGUAGES</b></label></td>
+					<td>
+						<input type="checkbox" name="te" id="te" value="Telugu"><label>Telugu</label>
+						<br>
+						<input type="checkbox" name="hi" id="hi" value="Hindi"><label>Hindi</label>
+						<br>
+						<input type="checkbox" name="en" id="en" value="English"><label>English</label>
+						<br>
+						<input type="checkbox" name="ta" id="ta" value="Tamil"><label>Tamil</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="Qual"><b>QUALIFICATION</b></label></td>
+					<td >
+						<select name="Qual">
+							<option value="">BTech</option>
+							<option value="">MTech</option>
+							<option value="">Phd</option>
+							<option value="">BSc</option>
+							<option value="">B.Pharm</option>
+							<option value="">M.pharm</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="address">ADDRESS</label></td>
+					<td>
+						<textarea rows="5" cols="25" placeholder="Type u r address" style="text-align: center;"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><input type="submit" value="submit"></td>
+					<td align="center"><input type="reset" value="reset"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
+Output:
+ 
+3) CSS & Java Script 
+3.1) Design a web page using CSS (Cascading Style Sheets) which includes the following: 
+3.1.1) Use different font, styles: In the style definition you define how each selector should work (font, color etc). Then, in the body of your pages, you refer to these selectors to activate the styles.
+Style.css
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <title>Usage of different font,styles and colors</title>
+     <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+     <h1>This header is H1</h1>
+     <h2>This header is H2</h2>
+     <h3>This header is H3</h3>
+     <p>This is normal text</p>
+</body>
+</html>
+
+
+31.html:
+
+
+h1
+{
+ color:indigo;
+ font-family:caStellar;font-size:20pt;
+ text-decoration:underline;
+}
+h2
+{
+ color:coral;
+ font-family:Chiller;font-size:18pt;
+ text-decoration:overline;
+}
+
+
+
+
+
+
+h3
+{
+ color:greenyellow;
+ font-family:Trebuchet MS;font-size:18pt;
+ text-decoration:blink;
+}
+
+p
+{
+ color:magenta;
+ font-family:fantasy;font-size:16pt;
+ font-style:italic;
+}
+
+
+Output:
+
+ 
+
+
+
+
+
+
+
+
+
+3.1.2) Set a background image for the web page and control the repetition of the image with the background-repeat property.
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Controlling background image</title>
+   <style type="text/css">
+   body
+  {
+     background-image:url("newwp.jpg");
+     background-repeat:no-repeat;
+  }
+  </style>
+</head>
+<body bgcolor="bisque">
+<body text="antiquewhite">
+<h1>Life is beautiful!!!</h1>
+</body>
+</html>
+
+Output:
+ 
+
+3.1.3) Define styles for link as visited, active, hover & link.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Webpage</title>
+<style type="text/css">
+ body{background-image:url(planetnew.jpg);background-repeat:no-repeat;}
+ p{color:yellow;font-size:20pt;font-family:chiller;background-image:url(newwp.jpg);}
+ a:link{font-size:20pt;background-color:white;}
+ a:hover{font-size:20pt;background-color:pink;cursor:crosshair;}
+ a:active{font-size:20pt;background-color:cyan;cursor:help;}
+ a:visited{font-size:20pt;background-color:tan;}
+</style>
+</head>
+</head>
+<body>
+<br>
+<p>
+Welcome to Web page using CSS where CSS means Cascading Style Sheets!
+ Using CSS we can apply the common styles to different tags and also different styles to same tag ie repeated more than once in the html file
+</p>
+<a href="wtforms.html"><center>Register</center></a>
+<br>
+</body>
+</html>
+Output:
+ 
+
+3.2) Write a JavaScript that takes a number from one text field in the range of 0-999 and display it in other text field in words. If the number is out of range, it should show “out of range” and if it is not a number, it should show “not a number” message in the result box.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script language="javascript">
+function convert_number_to_words(number)
+{
+hyphen='-';
+conjunction='and';
+separator='.';
+dictionary={0:'zero',1:'one',2:'two',3:'three',4:'four',5:'five',6:'six',7:'seven',8:'eight',
+9:'nine',10:'ten',11:'eleven',12:'twelve',13:'thirteen',14:'fourteen',15:'fifteen',16:'sixteen',
+17:'seventeen',18:'eighteen',19:'nineteen',20:'twenty',30:'thirty',40:'fourty',50:'fifty',
+60:'sixty',70:'seventy',80:'eighty',90:'ninety',100:'hundred',};
+if(number<0 || number>999)
+{
+alert("enter a number range between 0 and 999");
+return "";
+}
+switch(true)
+{
+case(number<21):
+string=dictionary[number];
+break;
+case(number<100):
+tens=parseInt(number/10)*10;
+units=number%10;
+string=dictionary[tens];
+if(units){
+string+=hyphen+dictionary[units];
+}
+break;
+case(number<1000):
+hundreds=parseInt(number/100);
+remainder=number%100;
+string=dictionary[hundreds]+ ' ' +dictionary[100];
+if(remainder){
+string+=conjunction+convert_number_to_words(remainder);
+}
+break;
+default:
+break;
+}
+return string;
+}a=prompt("Enter a number");
+num=parseInt(a);
+document.write(convert_number_to_words(num));
+</script>
+</head>
+<body bgcolor="bisque">
+<h1 align="center"><i>WELCOME TO JAVASCRIPT</i></h1>
+</body>
+</html>
+
+
+
+
+
+Output:
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+4) Java Script & XML
+ 4.1) Write a JavaScript to validate the following fields in a registration page created in week 2 
+a. Name (start with alphabet and followed by alphanumeric and the length should not be less than 6 characters) 
+b. Password (it allows alphanumeric, special symbols and should not be less than 6 characters)
+c. E-mail (should not contain invalid email addresses)
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form validation</title>
+<script language="javascript">
+function validation()
+{
+var x=f.un.value;var len=x.length;
+var val=x.charCodeAt(0); var p=f.pw.value;
+var c=f.cpw.value;var a=f.email.value;
+var atpos=a.indexOf("@");var dotpos=a.lastIndexOf(".");
+if(len<6||x==""||x==null)
+{
+alert("check your username! must be minimum 6 characters");
+}
+else if(val<65 || val>90&&val<97 || val>122)
+{
+alert("username must be begin with an alphabet");
+return fasle;
+}
+else if(p==" || c==" || p.length<6 || c.length<6 || p!=c)
+{
+alert("password and confirm password should be same and greater than 6 characters!");
+return false;
+}
+else if(atpos<6 || dotpos<atpos+6 || dotpos+2>=a.length)
+{
+alert("Not a Valid email id");
+return false;
+}
+else
+alert("Congratulations!you have submitted successfully");
+</script>
+</head>
+<body bgcolor="lemonchiffon">
+<h1 align="center" style="">Registration Form</h1>
+<table align="center" style="border: 1px solid;height: 600px;width: 400px; background-color:mediumvioletred;" >
+<form name="f" action="wtweek4.html" onsubmit="return validation();" method="post">
+<tr>
+<td><b>USERNAME</b></td>
+<td><input type="text" name="un" placeholder="Please Enter Name"></td>
+</tr>
+<tr>
+<td><b>PASSWORD</b></td>
+<td><input type="password" name="pw" placeholder="Please Enter password"></td>
+</tr>
+<tr>
+<td><b>CONFIRM PASSWORD</b></td>
+<td><input type="password" name="cpw" placeholder="Please Enter Again Password "></td>
+</tr>
+<tr>
+<td><b>E-mail ID:</b></td>
+<td><input type="text" name="email" placeholder="Please Enter E-Mail"></td>
+</tr>		
+<tr>
+<td><label for="tel"><b>PHONE NUMBER</b></label></td>
+<td><input type="tel" name="tel" id="tel" required="on" placeholder="Please Enter Phone Number"></td>
+</tr>
+<tr>
+<td><label for="date"><b>DOB</b></label></td>
+<td><input type="date" name="date" id="date" required="on" placeholder=" "></td>
+</tr>
+<tr>
+<td><label for="gender"><b>GENDER</b></label></td>
+<td>
+<input type="radio" name="gender" id="male" value="male"><label>Male</label>			  <input type="radio" name="gender" id="female" value="female"><label>Female</label>
+<input type="radio" name="gender" id="other" value="other"><label>Other</label>
+</td>
+</tr>
+<tr>
+<td><label for="lang"><b>LANGUAGES</b></label></td>
+<td>
+<input type="checkbox" name="te" id="te" value="Telugu"><label>Telugu</label>
+<br>
+<input type="checkbox" name="hi" id="hi" value="Hindi"><label>Hindi</label>
+<br>
+<input type="checkbox" name="en" id="en" value="English"><label>English</label>
+<br>
+<input type="checkbox" name="ta" id="ta" value="Tamil"><label>Tamil</label>
+</td>
+</tr>
+<tr>
+<td><label for="Qual"><b>QUALIFICATION</b></label></td>
+<td >
+<select name="Qual">
+<option value="">BTech</option>
+<option value="">MTech</option>
+<option value="">Phd</option>
+<option value="">BSc</option>
+<option value="">B.Pharm</option>
+<option value="">M.pharm</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="address"><b>ADDRESS</b></label></td>
+<td>
+<textarea rows="5" cols="25" placeholder="Please Type Your Address" style="text-align: center;"></textarea>
+</td>
+</tr>
+<tr>
+<td></td>	
+<td><input type="Submit" name="Submit"/></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
+
+Output:
+
+ 
+
