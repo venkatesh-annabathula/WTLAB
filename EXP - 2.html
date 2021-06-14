@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wtforms</title>
+</head>
+<body>
+	<h1 align="center" style="">Registration Form</h1>
+	<form autocomplete="on" action="#">
+		<fieldset style="border:0px;">
+			<table align="center" style="border: 1px solid;height: 600px;width: 400px; background-color:mediumseagreen;" >
+				<tr>
+					<td><label for="username"><b>USERNAME</b></label></td>
+		    		<td><input type="text" name="username" id="un" placeholder="Enter User Name"></td>
+				</tr>
+				<tr>
+					<td><label for="password"><b>PASSWORD</label></td>
+		    		<td><input type="Password" name="Password" id="pwd" placeholder="Enter Password" minlength="9"></td>
+				</tr>
+				<tr>
+					<td><label for="email"><b>EMAIL-ID</b></label></td>
+		    		<td><input type="email" name="email" id="em" required="email"></td>
+				</tr>
+				<tr>
+					<td><label for="tel"><b>PHONE NUMBER</b></label></td>
+					<td><input type="tel" name="tel" id="tel" required="on"></td>
+				</tr>
+				<tr>
+					<td><label for="date"><b>DOB</b></label></td>
+					<td><input type="date" name="date" id="date" required="on" placeholder=" "></td>
+				</tr>
+				<tr>
+					<td><label for="gender"><b>GENDER</b></label></td>
+					<td>
+						<input type="radio" name="gender" id="male" value="male"><label>Male</label>
+			    		<input type="radio" name="gender" id="female" value="female"><label>Female</label>
+			    		<input type="radio" name="gender" id="other" value="other"><label>Other</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="lang"><b>LANGUAGES</b></label></td>
+					<td>
+						<input type="checkbox" name="te" id="te" value="Telugu"><label>Telugu</label>
+						<br>
+						<input type="checkbox" name="hi" id="hi" value="Hindi"><label>Hindi</label>
+						<br>
+						<input type="checkbox" name="en" id="en" value="English"><label>English</label>
+						<br>
+						<input type="checkbox" name="ta" id="ta" value="Tamil"><label>Tamil</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="Qual"><b>QUALIFICATION</b></label></td>
+					<td >
+						<select name="Qual">
+							<option value="">BTech</option>
+							<option value="">MTech</option>
+							<option value="">Phd</option>
+							<option value="">BSc</option>
+							<option value="">B.Pharm</option>
+							<option value="">M.pharm</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="address">ADDRESS</label></td>
+					<td>
+						<textarea rows="5" cols="25" placeholder="Type u r address" style="text-align: center;"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><input type="submit" value="submit"></td>
+					<td align="center"><input type="reset" value="reset"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
